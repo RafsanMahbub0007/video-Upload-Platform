@@ -25,8 +25,8 @@
                         @if(Auth::user())
                         <li><a href="profile.html">Profile <img src="{{asset('assets/images/profile-header.jpg')}}" alt=""></a></li>
                         @else
-                        <li><a href="{{route('stream')}}">Login</a></li>
-                        <!-- <li><a href="{{route('stream')}}">Registration</a></li> -->
+                        <li><a href="{{route('login')}}">Login</a></li>
+                        <li><a href="{{route('registration')}}">Registration</a></li>
                         @endif
 
                     </ul>

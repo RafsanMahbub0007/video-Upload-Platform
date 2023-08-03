@@ -26,4 +26,12 @@ class Home_Controller extends Controller
     {
         return view('frontend.layouts.stream');
     }
+    function login()
+    {
+        return view('frontend.layouts.login');
+    }
+    function registration()
+    {
+        return view('frontend.layouts.registration');
+    }
 }
